@@ -138,11 +138,15 @@ a {
    }
   
    ul li a {
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     color: #000000;
    }
-   ul li a:hover {
+   footer a {
+    transition: all 0.2s ease-in-out;
+   }
+   a:hover {
     color:#137b95;
+    font-weight: 670;
    }
    article ul li {
     padding-left: 0;

@@ -94,11 +94,11 @@ header h1 {
 
 article p a {
     text-decoration: underline;
-    color: #8CE1F6;
+    color: #137b95;
     transition: 0.2s ease-in-out;
 }
 article p a:hover {
-    color:#8CE1F6;
+    color:#137b95;
     font-weight: 670;
 }
 }
