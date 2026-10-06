@@ -1,0 +1,75 @@
+header, footer, h3 {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 2.6em;
+}
+
+header h2{
+    font-size: 1.6em;
+}
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+main {
+  
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-bottom: 5%;
+ 
+  box-sizing: border-box;
+  text-align: center;
+}
+article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+   
+}
+footer {
+    font-size: 1em;
+    text-align: center;
+    line-height: 10px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.4s ease-in-out;
+
+}
+a:hover {
+    color: #137b95;
+    font-weight: 670;
+}
+
+@media (min-width: 600px){
+article image {
+        margin: 0 auto;
+    }
+header {
+    text-align: left;
+}
+main {
+    text-align: left;
+}
+}
