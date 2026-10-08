@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Experimentation</title>
+    <!-- normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Experiment</h1>
+  <h2>Open the console to see the functionality of the code!</h2>
+    
+  <script>
+    var name=prompt("What's your name?");
+        console.log(`Hi,${name}! Welcome to this JS Experimentation page!`);
+
+    // SEQUENCE
+    var sentence = "this bird pooped on my friend's hair"; //define sentence
+    var newSentence = ""; //define newSentence
+    var capitalize = true; //default capitalize 
+    // LOOP
+    for(var i=0; i<sentence.length; i++){ //repeat the task for sentence.length times, from 0 to sentence.length-1.
+        // SELECTION
+        if(capitalize){ //when capitalize = true
+            newSentence += sentence[i].toUpperCase(); //make the first letter cap since there is no space before it
+            capitalize = false; //after the first run, default no capitalize 
+        } else {
+            newSentence += sentence[i]; // otherwise copy the letter from sentence
+        }
+        // SELECTION
+        if( sentence[i] === " "){ //if a character is a space
+            capitalize = true; // letter after i is capitalized
+        }
+    }
+    // SEQUENCE
+    console.log(newSentence); //print newSentence in the console
+
+    for (let i = 1; i <= 7; i++) { 
+        console.log("#".repeat(i));
+    }
+
+
+  </script>
+</body>
+</html>
