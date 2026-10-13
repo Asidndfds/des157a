@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Experimentation</title>
+    <!-- normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Experiment 2</h1>
+  
+  <h2 id="sentence">Choose your favorite color!</h2>
+    
+  <script>
+    var colors = ['red', 'yellow', 'orange', 'green', 'blue'];
+    function chooseColor(){
+        var userColor = prompt('Which is your favorite color, red, yellow, orange, green, or blue?');//ask user for input with a string prompt
+    return userColor.toLowerCase(); //make users' input to lowercase
+    }
+    
+    function validColor(color) { 
+        var validColor = false; // assume user's input color is not in the list first
+        for (var i=0; i< colors.length; i++){
+            if (colors[i] === color) { // when one value in the list mataches with the user's input
+                validColor = true; // user's color is valid
+            }
+    }
+    return validColor;
+   }
+    function changeBgColor(color){
+        document.body.style.backgroundColor = color; // make the content in the body tag a specific color 
+    }
+ 
+    var userColor = chooseColor();
+    if (validColor(userColor)){ //when the user's color is valid, background color will be changed to user's color
+        changeBgColor(userColor); 
+    }
+    var sentence = document.querySelector('#sentence');// select the sentence by its id and make changes
+     if (validColor(userColor)){ //when the color is a valid color, the sentence will be changed to the following
+        sentence.innerHTML = 'Your favorite color must be ' + userColor +'!';
+     } else { //when the color doesn't match any color in the color list provided, the sentence will become the following
+        sentence.innerHTML = 'Please try again! Your input is not in the list.';
+     }
+  </script>
+</body>
+</html>

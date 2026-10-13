@@ -24,3 +24,13 @@ h2 {
   font-style: normal;
   text-align: center;
 }
+p {
+  padding-top: 10px;
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  line-height: 150%;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.6em;
+}
