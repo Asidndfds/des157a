@@ -8,7 +8,7 @@ header, footer, h3 {
 }
 
 h3 {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 header {
@@ -24,7 +24,6 @@ header h2{
 header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
     box-sizing: border-box;
 }
 main {
@@ -41,7 +40,7 @@ main {
 }
 article img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     margin: 0 auto;
    
@@ -67,9 +66,9 @@ article image {
         margin: 0 auto;
     }
 header {
-    text-align: left;
+    text-align: center;
 }
 main {
-    text-align: left;
+    text-align: center;
 }
 }

@@ -101,4 +101,16 @@ article p a:hover {
     color:#137b95;
     font-weight: 670;
 }
+ a {
+    transition: all 0.2s ease-in-out;
+    color: #000000;
+    text-decoration: none;
+   }
+   footer a {
+    transition: all 0.2s ease-in-out;
+   }
+   a:hover {
+    color:#137b95;
+    font-weight: 670;
+   }
 }
