@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadLibs Code Version 1</title>
+
+    <!-- normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Create a story from your animal friend</h1>
+        <h2>Fill in words of your choices to get a personalized story!</h2>
+    </header>
+
+    <main>
+        <div class="meet">
+            <img class="dog" src="images/dog.png" alt="progress bar of a dog" width="141" height="189">
+            <img class="ball" src="images/ball.png" alt="progress bar of a ball" width="56" height="56">
+        </div>
+        <form>
+            <div>
+                <label for="randomname">I'm </label><br>
+                <input type="text" id="randomname" placeholder="random noun" required><br><br>
+                <label for="adjective">I have a(n) </label><br>
+                <input type="text" id="animal" placeholder="animal (eg. cat)" required><br><br>
+                <label for="animal">who is </label><br>
+                <input type="text" id="adjective" placeholder="adjective (eg. evil)" required><br><br>
+            </div>
+               
+            <div>
+                <label for="petname">its name is </label><br>
+                <input type="text" id="petname" placeholder="name of pet" required><br><br>
+                <label for="favfood"> its favorite food is </label><br>
+                <input type="text" id="favfood" placeholder="food (eg.acorn)" required><br><br>
+                <label for="activity">and it often </label><br>
+                <input type="text" id="activity" placeholder="activity (eg. sleep on bed)" required><br><br>
+            </div>
+           
+            <input type="reset" value="Reset">
+            <input type="submit" value="See my story">  
+          
+        </form>
+    </main>
+    
+    <section class="story">
+        <h3>Why can't <span>pet name</span> Own the World</h3>
+        <p>
+            I'm <span>pet name</span> the <span>adjective</span> <span>animal</span>. My owner...no, my servant, <span>random noun</span>, likes to serve me with <span>food</span> to get me addicted to it. This harmed my chances of being the king of the animal world. Why? Because if I love some food, I have a fatal weakness of being seduced with it when I'm not near <span>random noun</span>. They will try to get me with <span>food</span> and I can't help but eat it. Thus, I never have enough time to work on my grand project of <span>activity</span> and own the world.
+        </p>
+        <div class="dognball">
+            <img src="images/dog.png" alt="dog" width="141" height="189">
+            <img src="images/ball.png" alt="ball" width="56" height="56">
+        </div>
+    </section>
+</body>
+</html>
