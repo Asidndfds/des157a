@@ -1,9 +1,7 @@
 label {
    font-size: 1.2em;
 }
-html {
-    scroll-behavior: smooth;
-}
+
 input[type="text"] {
     border: 1px solid #D6D9DC;
     transition: transform 0.2s ease;
@@ -22,7 +20,7 @@ body {
     max-width: 90%;
     text-align: left;
 }
-header, #madlib h3 {
+header, .story h2, .story h3 {
   font-family: "Gluten", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -49,7 +47,6 @@ main {
     max-width: 60px;
     height: auto;
     padding-bottom: 10px;
-    transition: 0.5s ease;
 }
 .ball {
     max-width: 30px;
@@ -69,26 +66,23 @@ header h2 {
     font-weight: 500;
 }
 
-#madlib {
+.story {
     max-width: 1000px;
     background-color: #faf5b2;
-    padding: 10px 30px 10px 30px;
-    margin: 20px auto 20px;
-}
-#madlib:empty {
-    display: none;
+    padding: 20px 30px 20px 30px;
+    margin: 40px auto 20px;
 }
 
-#madlib h3 {
+.story h3 {
     font-weight: 670;
     font-size: 1.5em;
     text-align: center;
 }
-#madlib p {
+.story p {
     line-height: 150%;
 }
 
-#madlib span {
+.story span {
     color:rgb(19, 123, 149);
     font-weight: 700;
     
@@ -104,8 +98,10 @@ input[type="reset"] {
     padding: 10px 15px 10px 15px;
     margin-right: 6px;
 }
-#madlib img[alt="ball"]{
-    margin-left: 65px;
+.dognball {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 @media (min-width: 600px){
 body {
@@ -141,7 +137,7 @@ input[type="reset"]:hover {
     transform: scale(1.06);
     font-weight: 600;
 }
-#madlib {
+.story {
     max-width: 1000px;
     background-color: #faf5b2;
     padding: 30px 50px 30px 50px;
