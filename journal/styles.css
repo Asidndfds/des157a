@@ -38,15 +38,17 @@ main {
 }
 
 body {
-    background-color: #e9e9e9;
     padding: 0 50px 10px 50px;
+    background-image: url('images/light-grey-terrazzo.png');
 }
+
 
 article {
     box-sizing: border-box;
     max-width: 550px;
     margin: 0 auto;
     padding:10px;
+    background-color: #fdfdfd;
 }
 
 article p {
