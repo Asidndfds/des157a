@@ -98,12 +98,14 @@ input[type="submit"] {
     border: 1px solid #D6D9DC;
     padding: 10px 15px 10px 15px;
     background-color: #faf5b2;
+    color: black;
 
 }
 input[type="reset"] {
     border: 1px solid #D6D9DC;
     padding: 10px 15px 10px 15px;
     margin-right: 6px;
+    color: black;
 }
 #madlib img[alt="ball"]{
     margin-left: 65px;
@@ -136,7 +138,6 @@ input[type="submit"]:hover {
 input[type="reset"] {
     transition: all 0.3s ease;
     transform-origin: left;
-
 }
 input[type="reset"]:hover {
     transform: scale(1.06);
