@@ -19,6 +19,12 @@ header h1 {
 h2{
     font-size: 1.6em;
 }
+h3{
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 150%;
+    color:#137b95;
+}
 
 header img {
     justify-content: center;
@@ -63,6 +69,27 @@ article p {
 article p a {
     text-decoration: underline;
     color: #137b95;
+}
+figure{
+    margin: 0 0 10px 0;
+}
+figure img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+figcaption {
+  background-color: #137b95;
+  color: white;
+  width: 37%;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.pics1029{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
 .paragraph {
   width: 100%;
