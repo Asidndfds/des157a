@@ -104,6 +104,10 @@ input[type="reset"] {
     padding: 10px 15px 10px 15px;
     margin-right: 6px;
 }
+input[type="text"]::placeholder {
+    color:#9a9a9b;
+    opacity: 1;
+}
 #madlib img[alt="ball"]{
     margin-left: 65px;
 }

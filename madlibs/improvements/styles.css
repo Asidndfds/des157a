@@ -9,8 +9,10 @@ input[type="text"] {
     transition: transform 0.2s ease;
     padding: 3px;
     transform-origin: left;
-    
-
+}
+input[type="text"]::placeholder {
+    color:#89898b;
+    opacity: 1;
 }
 input[type="text"]:focus {
     outline: 2.67px dashed rgba(19, 123, 149, 0.8) ;
