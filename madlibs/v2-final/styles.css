@@ -5,7 +5,7 @@ html {
     scroll-behavior: smooth;
 }
 input[type="text"] {
-    border: 1px solid #A9A9AC;;
+    border: 1px solid #D6D9DC;;
     transition: transform 0.2s ease;
     padding: 3px;
     transform-origin: left;
@@ -95,21 +95,14 @@ header h2 {
     
 }
 input[type="submit"] {
-    border: 1px solid #A9A9AC;;
+    border: 1px solid #D6D9DC;;
     padding: 10px 15px 10px 15px;
     background-color: #faf5b2;
-    color: black;
-    font-weight: 600;
-    font-size: 16pt;
-
 }
 input[type="reset"] {
-    border: 1px solid #A9A9AC;
+    border: 1px solid #D6D9DC;
     padding: 10px 15px 10px 15px;
     margin-right: 6px;
-    color: black;
-    font-weight: 600;
-    font-size: 16pt;
 }
 #madlib img[alt="ball"]{
     margin-left: 65px;

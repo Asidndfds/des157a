@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final MadLib Project</title>
+
+    <!-- normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Create a story from your animal friend</h1>
+        <h2>Fill in the choices to get a personalized story!</h2>
+    </header>
+
+    <main>
+        <div class="meet">
+            <img class="dog" src="images/dog.png" alt="progress bar of a dog" width="141" height="189">
+            <img class="ball" src="images/ball.png" alt="progress bar of a ball" width="56" height="56">
+        </div>
+        <form id="myform">
+            <div>
+                <label for="randomname">I'm </label><br>
+                <input type="text" id="randomname" placeholder="a name"><br><br>
+                <label for="animal">I have a(n) </label><br>
+                <input type="text" id="animal" placeholder="animal (eg. cat)"><br><br>
+                <label for="adjective">Who is </label><br>
+                <input type="text" id="adjective" placeholder="adjective (eg. evil)"><br><br>
+            </div>
+               
+            <div>
+                <label for="petname">Its name is </label><br>
+                <input type="text" id="petname" placeholder="name of pet"><br><br>
+                <label for="favfood"> Its favorite food is </label><br>
+                <input type="text" id="favfood" placeholder="food (eg. acorn)"><br><br>
+                <label for="activity">And it often </label><br>
+                <input type="text" id="activity" placeholder="activity (eg. sleeping)"><br><br>
+            </div>
+           
+            <input type="reset" value="Reset">
+            <input type="submit" value="See my story">  
+            
+        </form>
+        <article id="madlib"></article>
+    </main>
+</body>
+</html>
