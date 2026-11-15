@@ -106,6 +106,12 @@ figcaption {
     position: static;
     opacity: 1;
 }
+
+.hayday{
+    width: 100%;
+    height: auto;
+    padding-top:5px;
+}
 .hoverhow {
     display: none;
 }
