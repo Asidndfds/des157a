@@ -53,8 +53,11 @@ article {
     box-sizing: border-box;
     max-width: 550px;
     margin: 0 auto;
-    padding:10px;
+    padding:15px;
     background-color: #fdfdfd;
+    border-bottom: 1px dashed #c1c1c1;
+    padding-bottom: 20px;
+
 }
 
 article p {
